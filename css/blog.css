@@ -156,11 +156,11 @@ nav ul li a{
 }
 .part_one{
 	min-height:100vh;
-
+	max-width: 100vw;
 }
 .part_one .parcel{
 	margin: 0px auto;
-	max-width: 1080px;
+	max-width: 60vw;
 	padding-bottom: 30px;
 }
 .part_one .parcel h1{
@@ -181,7 +181,7 @@ nav ul li a{
 	padding-bottom: 20px;
 }
 .part_one .parcel .tuji .tu{
-	border:2px solid green;	
+	border:0px;	
 	display: inline-block;
 	width: 80px;
 	height: 80px;
@@ -193,52 +193,30 @@ nav ul li a{
 	height:100%;
 }
 
-.part_two {
-	background: rgb(33,41,55);
+.content .parcel .more{
+	margin-top: 20vh;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 30vw;
 }
-
-.first_left{
-	width:45%;
-} 
-.first_left img{
-	width:100%;
-}
-.part_two .parcel{
-	width: 50%;
-	margin: 33.5px;
-}
-.first_text{
-	position: relative;
-	top:80px;
+.content .parcel .more a{
+	font-size: 2.5vw;
 	color: white;
+}
+.content .parcel .more:hover{
+	animation: more 1s;
 }
 .clear{
 	clear: both;
 }
-.first > div{
-	float: left;
-}
+
 .clear_fix:after{
 	content: '';
 	display: block;
 	clear: both;
 }
-.first_text h2{
-	font-size: 24px;
-	margin-bottom: 12px;
-	max-width: 640px;
-}
-.first_text .first_title{
-	margin-bottom: 15px;
-	font-size: 20px;
-} 
-.first_text p{
-	max-width: 640px;
-	font-size: 18px;
-}
-.first:nth-child(odd){
-	background: rgba(255,255,255,.1);
-}
+
+
 .part_three{
 	background: #3f3965;
 	opacity: 0.9;
