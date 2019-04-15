@@ -79,7 +79,7 @@ nav ul li a{
 	height: 607px;
 }
 .banner .inner{
-	max-width: 800px;
+	max-width: 400px;
 	position: relative;
 	margin: 10px auto;
 	top:140px;
@@ -87,22 +87,20 @@ nav ul li a{
 	color:white;
 }
 .banner .inner .line{
-	width: 100%;
+	width: 80%;
 	height: 2px;
 	background: white;
-	padding: 2px;
 	margin: 0px auto;
-	margin-bottom: 25px;
+	margin-bottom: 20px;
 	
 }
 .banner .inner h1{
-	font-size: 30px;
 	letter-spacing: 2px;
 	margin-bottom:20px;
 }
 .banner .inner p{
 	line-height: 40px;
-	font-size: 25px;
+	font-size: 20px;
 	letter-spacing: 1px;
 }
 .banner .inner p a{
@@ -111,8 +109,7 @@ nav ul li a{
 .banner .inner button{
 	position: relative;
 	top:30px;
-	font-size: 25px;
-	padding:20px 25px;
+	padding:10px 20px;
 	border-radius: 5px;
 	background: #ED6B15;
 	color: white;
